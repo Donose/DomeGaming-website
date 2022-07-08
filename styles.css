@@ -323,3 +323,25 @@ a[target] {
     margin: 2.5rem;
   }
 }
+/* Specs page */
+
+/* Prices page */
+
+/* Contact page */
+.social_media-container {
+  width: 500px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.social_media-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_media-item {
+  list-style: none;
+  align-items: center;
+}
