@@ -345,3 +345,36 @@ a[target] {
   list-style: none;
   align-items: center;
 }
+.contact-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-text p {
+  padding-top: 50px;
+  padding-right: 30px;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  background-color: #180ada;
+  background-image: linear-gradient(
+    to right,
+    #cc1313c4 0%,
+    rgba(224, 39, 39, 0.315) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.location-placeholder {
+  width: 900px;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.placeholder-image {
+  width: 100%;
+}
