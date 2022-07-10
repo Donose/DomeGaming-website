@@ -34,7 +34,6 @@ a[target] {
   font-size: 1.5rem;
   color: #fff;
   font-weight: 500;
-  text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
   line-height: 75px;
@@ -181,7 +180,7 @@ a[target] {
   display: none;
 }
 .number-text {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -324,13 +323,12 @@ a[target] {
   }
 }
 /* Specs page */
-/* .content-container {
-  display: flex;
+.content-container {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
-} */
-.games {
+}
+.content-container p:first-child {
   font-size: 1.5rem;
   text-align: center;
   text-transform: uppercase;
@@ -347,37 +345,62 @@ a[target] {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-color: #fff;
+}
+.content-container p:last-child {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.games-images {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding-left: 30px;
+  margin-bottom: 50px;
+}
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g {
+  padding: 0 1rem;
+  position: relative;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: move;
+  -webkit-animation-duration: 2s;
+}
+/* Artificiu vizual...*/
+@-webkit-keyframes move {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.a:hover,
+.b:hover,
+.c:hover,
+.d:hover,
+.e:hover,
+.f:hover,
+.g:hover {
+  display: flex;
+  width: 200px;
+  height: 130px;
 }
 .playstation {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  border-style: solid;
-  border-color: #fff;
 }
-.playstation p:first-child {
-  font-size: 1.5rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding-bottom: 20px;
-  background-color: #180ada;
-  background-image: linear-gradient(
-    to right,
-    #cc1313c4 0%,
-    rgba(224, 39, 39, 0.315) 100%
-  );
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
+
 .playstation p:last-child {
   color: #fff;
   font-size: 1.5rem;
@@ -391,35 +414,12 @@ a[target] {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.vip p:first-child,
-.pc p:first-child,
-.peripherals p:first-child {
-  font-size: 1.5rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding-bottom: 20px;
-  background-color: #180ada;
-  background-image: linear-gradient(
-    to right,
-    #cc1313c4 0%,
-    rgba(224, 39, 39, 0.315) 100%
-  );
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
 .vip,
 .pc,
 .peripherals {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
   color: #fff;
-  border-style: solid;
-  border-color: #fff;
 }
 
 /* Prices page */
