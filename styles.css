@@ -323,3 +323,163 @@ a[target] {
     margin: 2.5rem;
   }
 }
+/* Specs page */
+/* .content-container {
+  display: flex;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.games {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 20px;
+  background-color: #180ada;
+  background-image: linear-gradient(
+    to right,
+    #cc1313c4 0%,
+    rgba(224, 39, 39, 0.315) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #fff;
+}
+.playstation {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #fff;
+}
+.playstation p:first-child {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 20px;
+  background-color: #180ada;
+  background-image: linear-gradient(
+    to right,
+    #cc1313c4 0%,
+    rgba(224, 39, 39, 0.315) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.playstation p:last-child {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.specs-container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.vip p:first-child,
+.pc p:first-child,
+.peripherals p:first-child {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 20px;
+  background-color: #180ada;
+  background-image: linear-gradient(
+    to right,
+    #cc1313c4 0%,
+    rgba(224, 39, 39, 0.315) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.vip,
+.pc,
+.peripherals {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  border-style: solid;
+  border-color: #fff;
+}
+
+/* Prices page */
+
+/* Contact page */
+.social_media-container {
+  width: 500px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.social_media-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_media-item {
+  list-style: none;
+  align-items: center;
+}
+.contact-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-text p:first-child {
+  padding-top: 50px;
+  padding-right: 30px;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  background-color: #180ada;
+  background-image: linear-gradient(
+    to right,
+    #cc1313c4 0%,
+    rgba(224, 39, 39, 0.315) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.contact-text p:last-child {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  left: 100%;
+  bottom: 150%;
+}
+.location-placeholder {
+  width: 900px;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.placeholder-image {
+  width: 100%;
+}
