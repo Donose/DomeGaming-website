@@ -68,7 +68,7 @@ a[target] {
   animation: pulse 2s infinite;
 }
 
-@-webkit-keyframes pulse {
+/* @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(0, 47, 255, 0.4);
   }
@@ -78,7 +78,7 @@ a[target] {
   100% {
     -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
   }
-}
+} */
 
 .navbar-links {
   color: #fff;
@@ -106,6 +106,9 @@ a[target] {
     width: 100%;
     max-width: 1300px;
     padding: 0;
+  }
+  .navbar-logo {
+    padding: 0 25px;
   }
   .item-list {
     display: grid;
@@ -324,7 +327,8 @@ a[target] {
 }
 /* Specs page */
 .content-container {
-  width: 1000px;
+  width: 1300px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -354,10 +358,6 @@ a[target] {
 }
 .games-images {
   display: flex;
-  width: 100px;
-  height: 100px;
-  padding-left: 30px;
-  margin-bottom: 50px;
 }
 .a,
 .b,
@@ -370,7 +370,9 @@ a[target] {
   position: relative;
   -webkit-animation: linear infinite alternate;
   -webkit-animation-name: move;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 10s;
+  width: 100px;
+  height: auto;
 }
 /* Artificiu vizual...*/
 @-webkit-keyframes move {
@@ -378,13 +380,13 @@ a[target] {
     left: 0;
   }
   50% {
-    left: 50%;
+    left: 25%;
   }
   100% {
-    left: 100%;
+    left: 50%;
   }
 }
-.a:hover,
+/* .a:hover,
 .b:hover,
 .c:hover,
 .d:hover,
@@ -394,7 +396,7 @@ a[target] {
   display: flex;
   width: 200px;
   height: 130px;
-}
+} */
 .playstation {
   width: 1000px;
   margin-left: auto;
@@ -414,12 +416,59 @@ a[target] {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.image-ps {
+  align-items: center;
+  display: flex;
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image {
+  width: 200px;
+  height: auto;
+  padding-bottom: 30px;
+}
+
 .vip,
 .pc,
 .peripherals {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
   color: #fff;
+}
+
+/* Mobile specs page*/
+@media screen and (max-width: 960px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+  }
+  .content-container {
+    font-size: 1rem;
+    display: grid;
+    justify-content: space-between;
+  }
+  .games-images {
+    display: flex;
+  }
+  .a,
+  .b,
+  .c,
+  .d,
+  .e,
+  .f,
+  .g {
+    -webkit-animation-name: none;
+    padding-left: auto;
+  }
+
+  .specs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 /* Prices page */
