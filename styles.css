@@ -327,8 +327,15 @@ a[target] {
 }
 /* Specs page */
 .content-container {
-  width: 1300px;
+  width: 800px;
   height: auto;
+  margin-left: auto;
+  margin-right: 1300px;
+}
+.games {
+  width: 800px;
+  height: auto;
+  padding-left: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -356,9 +363,9 @@ a[target] {
   color: #fff;
   margin-bottom: 20px;
 }
-.games-images {
+/* .games-images {
   display: flex;
-}
+} */
 .a,
 .b,
 .c,
@@ -472,6 +479,24 @@ a[target] {
 }
 
 /* Prices page */
+.price-container {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.price-items {
+  list-style: none;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: #fff;
+}
+.price-links {
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 /* Contact page */
 .social_media-container {
